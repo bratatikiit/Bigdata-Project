@@ -19,6 +19,6 @@ def run_mrjob(input_file, output_file):
 
 if __name__ == '__main__':
     input_file = 'input.csv'  # Your input CSV file
-    output_file = 'output.csv'  # Your output CSV file
+    output_file = 'output_emtion.csv'  # Your output CSV file
     run_mrjob(input_file, output_file)
 
