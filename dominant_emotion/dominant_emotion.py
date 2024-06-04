@@ -16,11 +16,13 @@ class DominantEmotion(MRJob):
 
         parts = line.split(',')
 
-        # Extract gender and dominant emotion
-        gender = parts[2]
-        emotion = parts[9]
+        # Ensure there are enough parts in the line to avoid index errors
+        if len(parts) > 9:
+            # Extract gender and dominant emotion
+            gender = parts[2]
+            emotion = parts[9]
 
-        yield gender, emotion
+            yield gender, emotion
 
     def reducer_count_emotions(self, key, values):
         emotion_counts = {}
@@ -33,4 +35,3 @@ class DominantEmotion(MRJob):
 
 if __name__ == '__main__':
     DominantEmotion.run()
-
