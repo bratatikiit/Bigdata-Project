@@ -1,0 +1,14 @@
+hdfs dfs -put /home/bratati/Downloads/project/dominant_emotion/input.csv /test_data/input.csv
+python3 dominatrun.py.py
+hdfs dfs -get  /output_data/output_emotion.csv .
+
+----------------------------------------------------------------
+hdfs dfs -put /home/bratati/Downloads/project/EmotionCounts/input.csv /test_data/input.csv
+python3 runcount.py
+hdfs dfs -get  /output_data/emotion_counts.csv 
+--------------------------------------------------------
+python3 platformrun.py
+hdfs dfs -get  /output_data/output_gender.csv
+----------------------------------
+hdfs dfs -get  /output_data/output_platform_post_counts.csv
+python3 postrun.py
