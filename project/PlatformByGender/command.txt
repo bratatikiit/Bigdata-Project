@@ -10,5 +10,6 @@ hdfs dfs -get  /output_data/emotion_counts.csv
 python3 platformrun.py
 hdfs dfs -get  /output_data/output_gender.csv
 ----------------------------------
-hdfs dfs -get  /output_data/output_platform_post_counts.csv
+
 python3 postrun.py
+hdfs dfs -get  /output_data/output_platform_post_counts.csv
