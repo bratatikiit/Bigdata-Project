@@ -4,7 +4,7 @@ This project leverages Big Data technologies, including Hadoop,Mapreduce ,HBase,
 
 # Technologies and Tools
 **HBase: A distributed column-oriented database for storing and managing large datasets.**
-Databricks: A unified analytics platform that simplifies the development and deployment of data pipelines and machine learning models.
+**Databricks: A unified analytics platform that simplifies the development and deployment of data pipelines and machine learning models.**
 Kafka: A distributed streaming platform for processing real-time data streams.
 Python: The primary programming language used for data processing, analysis, and visualization.
 Jupyter Notebook: An interactive environment for data exploration and analysis.
