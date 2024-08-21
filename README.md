@@ -1,5 +1,6 @@
 ## Project Overview
-# This project leverages Big Data technologies, including Hadoop,Mapreduce ,HBase, Databricks, and Kafka, to analyze the impact of social media usage on emotional well-being. By processing large datasets from Kaggle, we aim to uncover correlations between social media interactions and user sentiment.
+
+This project leverages Big Data technologies, including Hadoop,Mapreduce ,HBase, Databricks, and Kafka, to analyze the impact of social media usage on emotional well-being. By processing large datasets from Kaggle, we aim to uncover correlations between social media interactions and user sentiment.
 
 # Technologies and Tools
 **HBase: A distributed column-oriented database for storing and managing large datasets.**
